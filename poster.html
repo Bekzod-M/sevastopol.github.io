@@ -1,0 +1,603 @@
+<head>
+	<meta charset="UTF-8">
+	<title>Афиша</title>
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="head">
+			<div class="logo">
+				<a href="homepage.html"><img src="img/logo.png" alt=""></a>
+			</div>
+			<div class="sign-in">
+				<div class="login">
+					<a href="signup.html"><span>Регистрация</span></a>
+					<a href="#">Войти</a>
+				</div>
+				<div class="free-ad">
+					<a href="#">Подать бесплатное объявление</a>
+				</div>
+			</div>
+		</div>
+		<nav class="nav">
+			<div class="wrap">
+				<ul class="nav-menu">
+					<li><a href="homepage.html">Главная</a></li>
+					<li><a href="ads.html">Объявления</a></li>
+					<li><a href="company-directory.html">Каталог предприятий</a></li>
+					<li><a href="news-main.html">Новости</a></li>
+					<li class="active"><a href="poster.html">Афиша</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="search-for-ads">
+			<div class="search">
+				<div class="category">
+					<input type="" placeholder="Все категории">
+					<i class="fa fa-caret-down" aria-hidden="true"></i>
+				</div>
+				<div class="for-ads">
+					<input type="" placeholder="Поиск объявления">
+				</div>
+				<div class="btn-search">
+					<i class="fa fa-search" aria-hidden="true"></i>
+					<a href="#">Поиск</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="wrap">
+		<section class="section-poster">
+			<div class="news-main-bg">
+				<h3 class="title">Афиша Севастополя</h3>
+			</div>
+
+			<div class="event-venue">
+				<ul class="nav nav-tabs" id="myTab">
+					<li class="nav-item">
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#event">
+							СОБЫТИЯ
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#venue">
+							МЕСТА ПРОВЕДЕНИЯ
+						</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="event">
+						<div class="poster-sort sort">
+							<ul class="sort-left">
+								<li><span>Сортировать по:</span></li>
+								<li><a href="" class="active">все</a></li>
+								<li><a href="">кино</a></li>
+								<li><a href="">спектакл</a></li>
+								<li><a href="">концерты</a></li>
+								<li><a href="">шоу</a></li>
+								<li><a href="">детям</a></li>
+								<li><a href="">выставки</a></li>
+								<li><a href="">ярмарки</a></li>
+								<li><a href="">праздники</a></li>
+							</ul>
+						</div>
+						<div class="cinema-title">
+							<p>Кино</p>
+						</div>
+
+						<div class="main-cinema">
+							<div class="cinema-box">
+								<div class="cinema-img"><a href=""><img src="img/kino1.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Освобождение: Последний штурм (16+)</b></a>
+										<span>(военный)</span>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Москва» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">09 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Москва» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">09 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+								</div>
+							</div>
+							<div class="cinema-box">
+								<div class="cinema-img"><a href=""><img src="img/kino2.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Папа-мама гусь (6+)</b></a> <span>(комедия)</span>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Муссон» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">09 мая</div>
+										<div class="box">10:50, <br> 12:40, <br> 16:10...</div>
+									</div>
+								</div>
+							</div>
+							<div class="cinema-box">
+								<div class="cinema-img"><a href=""><img src="img/kino3.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Битва за Севастополь (16+)</b></a> <span>(боевик)</span>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Москва» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">04 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Россия» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">04 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+								</div>
+							</div>
+							<div class="cinema-box">
+								<div class="cinema-img"><a href=""><img src="img/kino4.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Танки (12+) </b></a> <span>(военный)</span>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Победа» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">10-16 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+								</div>
+							</div>
+							<div class="cinema-box">
+								<div class="cinema-img"><a href=""><img src="img/kino5.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Офицеры (0+)</b></a> <span>(военный)</span>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Победа» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Моряк» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+								</div>
+							</div>
+							<div class="cinema-box">
+								<div class="cinema-img"><a href=""><img src="img/kino6.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Освобождение: Битва за Берлин (16+)</b></a> <span>(военный)</span>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Москва» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+								</div>
+							</div>
+							<div class="cinema-box">
+								<div class="cinema-img">
+									<a href="poster-item.html"><img src="img/kino7.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href="poster-item.html"><b>Мстители: Война бесконечности (16+) </b></a> <span>(боевик)</span>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Муссон» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Моряк» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Победа» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Кинотеатр <br> «Москва» <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="performance-title">
+							<p>Спектакли</p>
+						</div>
+
+						<div class="main-performance">
+							<div class="performance-box">
+								<div class="cinema-img"><a href=""><img src="img/spek1.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Приключения очень важного <br> чемоданчика (3+)</b></a>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Театр им. А. <br>Луначарского <br></b></a>
+											<span>рус.</span>
+										</div>
+										<div class="box">29 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+								</div>
+							</div>
+							<div class="performance-box">
+								<div class="cinema-img"><a href=""><img src="img/spek2.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Сон в летнюю ночь (16+)</b></a>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Театр ЧФ РФ им. <br> Б.Лавренёва</b></a>
+											<br>
+											<span>рус.</span>
+										</div>
+										<div class="box">19 мая</div>
+										<div class="box">18.30</div>
+									</div>
+								</div>
+							</div>
+							<div class="performance-box">
+								<div class="cinema-img"><a href=""><img src="img/spek3.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>№13 (12+)</b></a>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Театр ЧФ РФ им. <br> Б.Лавренёва</b></a>
+											<br>
+											<span>рус.</span>
+										</div>
+										<div class="box">25 мая</div>
+										<div class="box">18.30</div>
+									</div>
+								</div>
+							</div>
+							<div class="performance-box">
+								<div class="cinema-img"><a href=""><img src="img/spek4.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>О маленьких для больших (12+)</b></a>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>СевТЮЗ</b></a>
+											<br>
+											<span>рус.</span>
+										</div>
+										<div class="box">20 мая</div>
+										<div class="box">19.00</div>
+									</div>
+								</div>
+							</div>
+							<div class="performance-box">
+								<div class="cinema-img"><a href=""><img src="img/spek5.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Фредди, Фред и Фредерик (12+)</b></a>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Театр им. А. <br> Луначарского</b></a>
+											<br>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">15.00</div>
+									</div>
+								</div>
+							</div>
+							<div class="performance-box">
+								<div class="cinema-img"><a href=""><img src="img/spek6.png" alt=""></a></div>
+								<div class="title-date-location">
+									<div class="cinema-title">
+										<a href=""><b>Осторожно: дети! (12+)</b></a>
+									</div>
+									<div class="divide-1 hr-cinema"></div>
+									<div class="date-location">
+										<div class="box">
+											<a href=""><b>Театр им. А. <br> Луначарского</b></a>
+											<br>
+											<span>рус.</span>
+										</div>
+										<div class="box">08 мая</div>
+										<div class="box">14.00, <br> 16.30</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="item-pagination poster-3-1">
+							<div class="pagination">
+								<div class="page"><a href="#">«</a></div>
+								<div class="page"><a href="#">1</a></div>
+								<div class="page"><a href="#">2</a></div>
+								<div class="page"><a href="#">3</a></div>
+								<div class="page"><a href="#">4</a></div>
+								<div class="page"><a href="#">5</a></div>
+								<div class="page"><a href="#">6</a></div>
+								<div class="page"><a href="#">7</a></div>
+								<div class="page"><a href="#">...</a></div>
+								<div class="page"><a href="#">128</a></div>
+								<div class="page"><a href="#">»</a></div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="tab-pane fade" id="venue">
+						<div class="poster-sort sort">
+							<ul class="sort-left">
+								<li><span>Сортировать по:</span></li>
+								<li><a href="" class="active">все</a></li>
+								<li><a href="">кино</a></li>
+								<li><a href="">спектакл</a></li>
+								<li><a href="">концерты</a></li>
+								<li><a href="">шоу</a></li>
+								<li><a href="">детям</a></li>
+								<li><a href="">выставки</a></li>
+								<li><a href="">ярмарки</a></li>
+								<li><a href="">праздники</a></li>
+							</ul>
+						</div>
+						<div class="main-venue">
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Кинотеатр «Победа»</a></div>
+								<div class="venue-list">Ул. Большая Морская, 13, тел. +7 (8692) 54-38-41</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Кинотеатр «Моряк»</a></div>
+								<div class="venue-list">ул. Леваневского д. 27, тел. 71-71-90</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Кинотеатр «Москва»</a></div>
+								<div class="venue-list">Пр. Ген. Острякова, 70, тел. 57-40-20, 54-45-82</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">СевТЮЗ</a></div>
+								<div class="venue-list">
+									пр. Ю. Гагарина, 16, тел. +7 (978) 070-60-10 <br>
+									+7 (8692) 53-42-15 +7 (8692) 45-57-18
+								</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Театр им. А. Луначарского</a></div>
+								<div class="venue-list">
+									Пр. П. Нахимова, 6, тел. +7 (8692) 54-43-30 касса, <br>
+									+7 (8692) 54-62-26, +7 (978) 965-05-05
+								</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Кинотеатр «Россия»</a></div>
+								<div class="venue-list">Пл. 50-летия СССР, тел. 24-03-00, 24-12-03</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Театр ЧФ РФ им. Б.Лавренёва</a></div>
+								<div class="venue-list">
+									Пл. Ф. Ушакова, 1, тел. +7 (8692) 54-33-95 (касса), <br>
+									+7 (8692) 54-37-33
+								</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Культурный информационный центр (КИЦ)</a></div>
+								<div class="venue-list">
+									Ул. П.Корчагина, 1, тел. +7 (8692) 41-12-09 (касса), <br>
+									+7 (8692) 41-06-73, +7 (8692) 42-91-83
+								</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Кинотеатр «Муссон»</a></div>
+								<div class="venue-list">
+									ТРЦ "Муссон", 2 этаж, тел. +7 (8692) 47-44-44 (касса), <br>
+									+7 (978) 804-71-11, +7 (8692) 90-73-33
+								</div>
+							</div>
+							<div class="main-venue-list">
+								<div class="venue-list"><a href="">Театр танца им. В.А. Елизарова</a></div>
+								<div class="venue-list">
+									Пр. П. Нахимова, 4, тел. +7 (8692) 54-76-03, +7 (989) 800-95-85
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item-sidebar-r poster-1-8">
+				<h3 class="title">Афиша</h3>
+				<div class="content">
+					<div class="lists">
+						<div class="list-img"><img src="img/a1.jpg" alt=""></div>
+						<div class="list-text">
+							<a href="#">Великий <br> полководец <br> Георгий Жуков <br> (12+)</a> <br>
+							<span>Кинотеатр «Москва» <br>
+							12 февраля 2018</span>
+						</div>
+					</div>
+					<div class="lists">
+						<div class="list-img"><img src="img/a2.jpg" alt=""></div>
+						<div class="list-text">
+							<a href="#">МУЛЬТ в кино (0+)</a> <br>
+							<span>Кинотеатр «Победа» <br>
+							9.00</span>
+						</div>
+					</div>
+					<div class="lists">
+						<div class="list-img"><img src="img/a3.jpg" alt=""></div>
+						<div class="list-text">
+							<a href="#">Тренер (12+)</a> <br>
+							<span>Кинотеатр «Моряк» <br>
+							16.30</span>
+						</div>
+					</div>
+					<div class="lists">
+						<div class="list-img"><img src="img/a4.jpg" alt=""></div>
+						<div class="list-text">
+							<a href="#">Мстители: Война <br> бесконечности <br> (16+)</a> <br>
+							<span>Кинотеатр «Победа» <br>
+							10 - 16 мая</span>
+						</div>
+					</div>
+				</div>
+				<div class="all-poster">
+					<a id="all" href="">ВСЕ АФИША >></a>
+				</div>
+				<div class="banner">
+					<h3 class="title">Баннер</h3>
+					<div class="frame">
+						<img src="img/width.jpg" alt="">
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+	</div>
+
+	<div class="banners">
+		<div class="order"><img src="img/o1.gif" alt=""></div>
+		<div class="order"><img src="img/o2.gif" alt=""></div>
+	</div>
+
+	<footer>
+		<div class="footer wrap">
+			<ul class="footer-info">
+				<li>Отдел рекламы сайта <br> «Реклама Севастополя»:</li>
+				<li>тел. +7 (978) 81-80-990</a></li>
+				<li><a href="">Написать нам</a></li>
+			</ul>
+
+			<ul class="footer-info">
+				<li><a href="">Объявления</a></li>
+				<li><a href="">Новости</a></li>
+				<li><a href="">Афиша</a></li>
+				<li><a href="">Предприятия</a></li>
+			</ul>
+
+			<ul class="footer-info">
+				<li><a href="">Полезная информация</a></li>
+				<li><a href="">Пользовательское соглашение</a></li>
+				<li><a href="">Правила подачи объявлений</a></li>
+				<li><a href="">Топ-объявления (оплаты)</a></li>
+				<li><a href="">Подать бесплатное объявление</a></li>
+			</ul>
+
+			<div class="footer-info-4">
+				<span>Подписывайтесь на нас в соцсетях</span>
+				<div class="icons">
+					<div class="ico">
+						<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					</div>
+					<div class="ico">
+						<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					</div>
+					<div class="ico">
+						<a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+					</div>
+					<div class="ico">
+						<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+					<div class="ico">
+						<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+					</div>
+					<div class="ico">
+						<a href=""><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+					</div>
+					<div class="ico">
+						<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+					</div>
+					<div class="ico">
+						<a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="details">
+		Использование материалов разрешается при условии активной ссылки на сайт sevastopoll.ru. Ответственность за содержание рекламного <br> объявления несет рекламодатель. Оплачивая услуги на сайте, вы принимаете оферту. <br>
+		<p><b>Create by Shamsweb studio</b></p>
+	</div>
+
+	<script>
+
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+		<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+		<script src="libs/bootstrap4/js/popper.min.js"></script>
+		<script src="libs/bootstrap4/js/bootstrap.min.js"></script>
+	</body>
+	</html>
